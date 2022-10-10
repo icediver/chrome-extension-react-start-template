@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import ReactDOM from 'react-dom/client';
 import './options.css'
 
@@ -7,7 +7,7 @@ document.body.appendChild(rootElement);
 
 const root = ReactDOM.createRoot(rootElement);
 
-const App = () => {
+const App: FC = () => {
   return <img src="icon.png" />;
 };
 
