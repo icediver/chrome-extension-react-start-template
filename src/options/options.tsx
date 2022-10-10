@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './popup.css'
+import './options.css'
 
 const rootElement = document.createElement('div');
 document.body.appendChild(rootElement);
@@ -12,5 +12,3 @@ const App = () => {
 };
 
 root.render(<App />);
-
-// ReactDOM.render(App, document.body)
