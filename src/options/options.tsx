@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import ReactDOM from 'react-dom/client';
-import './options.css'
+import './options.scss';
 
 const rootElement = document.createElement('div');
 document.body.appendChild(rootElement);
