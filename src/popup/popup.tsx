@@ -13,4 +13,4 @@ const App = () => {
 
 root.render(<App />);
 
-// ReactDOM.render(App, document.body)
+
